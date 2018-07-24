@@ -3,7 +3,6 @@
   height: 200px;
   width: 300px;
 }
-
 .tile {
 	display: inline-block;
 	width: 30%;
@@ -14,26 +13,21 @@
 	box-sizing: border-box;
 }
 @media screen and (max-width: 1060px) {
-  .tile {
-    width: 260px;
-    display: block;
+.tile {
+  width: 260px;
+  display: block;
   }
-  .Small-txt {
-    display: block;
-    border: none;
-    width: 250px;
+.Small-txt {
+  display: block;
+  border: none;
+  width: 250px;
   }
 }
-
 .tile img	{
 	display: block;
 	margin: 0 auto;
 }
-
 @media screen and (max-width: 1200px) {
-  /* body {
-    background-color: green;
-  } */
   .hidden-img {
     display: none;
   }
